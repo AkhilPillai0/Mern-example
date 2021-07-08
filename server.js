@@ -14,7 +14,6 @@ mongoose.connect("mongodb+srv://Alex:Alex1234@cluster0.o64qy.mongodb.net/songsDB
     .then(() => console.log('MongoDB connected...'))
     .catch(err => console.log(err));
 
-
 const songSchema = {
     title: String,
     genre: String,
